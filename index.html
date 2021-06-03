@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--CONTENEDOR DE TODO-->
+    <div class="contenedor" id="contendor">
+        <section class="tarjeta">
+            <section class="slider-banner">
+                <div class="banner" id="banner">
+                    <img src="images/banner.jpg" class="slide foto active">
+                    <img src="images/banner2.jpg" class="slide foto">
+                    <img src="images/banner3.jpg" class="slide foto">
+                </div>
+                <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fas fa-angle-left"></span></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fas fa-angle-right"></span></a>
+            </section>
+
+<!-- SLIDER DE INFORMACIÓN -->
+            <section class="slider-info">
+                <a href="#" id="info-prev" class="flecha-info anterior"><span class="fas fa-angle-left"></span></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><span class="fas fa-angle-right"></span></a>
+                <section id="informacion" class="informacion">
+                    <article id="info">
+                       <div class="slide active">
+                            <h1 class="nombre">Andrea Valentina Cano</h1>
+                            <p class="trabajo">Licenciada en Psicología</p>
+                            <p class="pais"><img src="images/bandera.png" alt="">Argentina</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Prueba</h2>
+                            <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis fugit adipisci quasi, modi quia inventore nisi consequatur a corrupti voluptatum reiciendis natus expedita? A, aliquid rem temporibus eum dolor nemo.</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Prueba2</h2>
+                            <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis fugit adipisci quasi, modi quia inventore nisi consequatur a corrupti voluptatum reiciendis natus expedita? A, aliquid rem temporibus eum dolor nemo.</p>
+                        </div>
+                    </article>
+
+                    <div class="botones" id="botones">
+
+                        
+                    </div>
+                </section>
+            </section>
+
+            <section class="redes-sociales">
+                <a href="#" class="facebook"><span class="fab fa-facebook"></span></a>
+                <a href="#" class="instagram"><span class="fab fa-instagram"></span></a>
+            </section>
+    </div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
